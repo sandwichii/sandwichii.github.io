@@ -13,7 +13,8 @@
 //@box_glow: 0px 0px 25px 10px rgb(255,255,255);
   
 @avator_size: 120px;
-@avator_src: '../artwork/sandwichii_logo.jpg';
+@avator_src: 'http://p1.bqimg.com/567571/753f2709e3548b4c.jpg';
+@bg_src：'http://p1.bqimg.com/567571/2418c63c3e76e7ce.jpg';
 @icon_size_social: 32px;
 
 //---------
@@ -88,7 +89,7 @@
 /*body & header*/
 body {
   margin:0px;
-  background: url('../artwork/sandwichii_wallpaper.jpg') no-repeat;
+  background: url(@bg_src) no-repeat;
   background-size: cover;
 }
 
@@ -171,7 +172,6 @@ div#nav_soundcloud:hover {
 .icon_social {
   width: @icon_size_social;
   height: @icon_size_social;
-  display:inline;
   vertical-align:middle;
 }
 
