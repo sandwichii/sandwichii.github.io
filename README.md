@@ -2,6 +2,7 @@
 
 ![npm version](https://img.shields.io/badge/npm-4.1.1-ff7b61.svg)
 ![less version](https://img.shields.io/badge/less-2.7.1-4a67e7.svg)
+![vscode version](https://img.shields.io/badge/vscode-1.11.2-4C86FF.svg)
 
 我的个人页地址，你可以直接在地址栏输入或者点击下面的链接来访问：
 
