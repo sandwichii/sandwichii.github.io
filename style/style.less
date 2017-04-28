@@ -14,7 +14,9 @@
   
 @avator_size: 120px;
 @avator_src: 'http://p1.bqimg.com/567571/753f2709e3548b4c.jpg';
+@avator_src_local: 'artwork/sandwichii_logo.jpg';
 @bg_src: 'http://p1.bqimg.com/567571/2418c63c3e76e7ce.jpg';
+@bg_src_local : 'artwork/sandwichii_wallpaper.jpg';
 @icon_size_social: 32px;
 
 //---------
@@ -33,7 +35,10 @@
   box-shadow:0px 0px @blur @spread rgb(255,255,255);
 }
 .box_shadow(shadow;@blur;@spread){
-  box-shadow:0px 0px @blur @spread rgba(50,50,50,1);
+  box-shadow:0px 0px @blur @spread rgba(0,0,0,1);
+}
+.box_shadow(inset_glow;@blur;@spread){
+  box-shadow:0px 0px @blur @spread rgb(255,255,255) inset;
 }
 .nav_init(){
   margin-top:100px;
@@ -74,6 +79,8 @@
     opacity:1;
   }
 }
+
+//////////////////////////////////////////
 
 //---------
 //main style
@@ -131,7 +138,7 @@ header {
 
 nav {
   width: 100%;
-  height:60px;
+  height:auto;
   display:block;
   .animation_design(opacity_only,1s,ease-out);
 }
@@ -169,6 +176,15 @@ div#nav_twitter:hover {
 div#nav_soundcloud:hover {
   background:rgb(255, 85, 0);
 }
+div#nav_lofter:hover {
+  background:rgb(50, 96, 97);
+}
+div#nav_bilibili:hover {
+  background:rgb(242, 93, 142);
+}
+div.nav_blank {
+  color: rgba(255, 255, 255, 0.6);
+}
 .icon_social {
   width: @icon_size_social;
   height: @icon_size_social;
@@ -194,7 +210,8 @@ div#nav_soundcloud:hover {
 /*footer*/
 footer {
   width:100%;
-  padding:50px;
+  padding-top:100px;
+  padding-bottom:50px;
   box-sizing:border-box;
   .animation_design(opacity_only,1s,ease-out);
 }
