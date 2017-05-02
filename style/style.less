@@ -162,7 +162,10 @@ div.social_nav {
 }
 div.social_nav span {
   //border-bottom: 1px dashed rgb(255,255,255);
-  margin-left:8px;
+  margin-left:16px;
+}
+div.social_nav:hover span {
+  text-shadow:2px 2px 4px rgb(30,30,30);
 }
 div#nav_github:hover {
   background:rgb(0,0,0);
@@ -181,6 +184,9 @@ div#nav_lofter:hover {
 }
 div#nav_bilibili:hover {
   background:rgb(242, 93, 142);
+}
+div#nav_pixiv:hover {
+  background:rgb(12, 156, 253);
 }
 div.nav_blank {
   color: rgba(255, 255, 255, 0.6);
@@ -210,8 +216,7 @@ div.nav_blank {
 /*footer*/
 footer {
   width:100%;
-  padding-top:100px;
-  padding-bottom:50px;
+  margin-top:150px;
   box-sizing:border-box;
   .animation_design(opacity_only,1s,ease-out);
 }
