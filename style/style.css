@@ -37,7 +37,7 @@
 /*body & header*/
 body {
   margin: 0px;
-  background: url('http://p1.bqimg.com/567571/2418c63c3e76e7ce.jpg') no-repeat;
+  background: url('../artwork/sandwichii_wallpaper.jpg') no-repeat;
   background-size: cover;
 }
 header {
@@ -55,7 +55,7 @@ header {
   width: 120px;
   height: 120px;
   border-radius: 60px;
-  background: url('http://p1.bqimg.com/567571/753f2709e3548b4c.jpg');
+  background: url('../artwork/sandwichii_logo_1000.png');
   background-size: contain;
   margin: auto;
   transition-property: box-shadow;
